@@ -1,0 +1,44 @@
+#style:hover {
+  color: white;
+  background-color: black;
+
+  height: 100px;
+  text-align: center;
+}
+.middle:focus {
+  color: red;
+  height: 50px;
+}
+a:visited {
+  color: red;
+}
+li:nth-child(2n) {
+  background-color: red;
+  color: green;
+}
+li:nth-child(2n + 1) {
+  background-color: black;
+  color: white;
+}
+h3::before {
+  content: "Hello ";
+}
+h3::after {
+  content: " Bello";
+}
+.swimming div {
+  width: 200px;
+}
+#water {
+  position: relative;
+  top: -85px;
+}
+#ring {
+  position: relative;
+  z-index: 1;
+}
+#boy {
+  position: relative;
+  top: 75px;
+  z-index: 2;
+}
